@@ -1,0 +1,50 @@
+/* TodoList */
+.todos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 50%;
+  font-size: 1.5rem;
+}
+
+.todo-status {
+  background: none;
+  border: none;
+  padding: 0;
+  line-height: 1;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &:hover {
+    transform: scale(1.5);
+  }
+}
+
+.todo-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  background-color: transparent;
+  font-size: 1.5rem;
+}
+
+/* Form */
+.form {
+  display: flex;
+  gap: 0.5rem;
+  width: 50%;
+  margin: 1rem auto;
+}
+
+.form__input {
+  flex: 1;
+  padding: 0.25rem 0.5rem;
+}
